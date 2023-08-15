@@ -38,6 +38,36 @@ p {
     box-shadow: usar box shador generator css; 
 }*/
 
-.containe {
+.container {
     display: flex;
 }
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-auto-rows: 200px;
+}
+
+@media (max-width: 640px) {
+
+}
+
+@media (min-width: 1200px) {
+
+}
+
+.box4:hover {
+    animation-name: animation;
+    animation-duration: 1s;
+    animation-fill-mode: backwards;
+    animation-delay: 1s;
+    animation-timing-function: ease-in;
+}
+
+@keyframes animation {
+
+}
+
+
+/* webpack
+vite: copiar comando npm */
